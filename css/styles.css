@@ -253,11 +253,9 @@
 
   .hero {
 
-    background: var(--navy-blue);
+    background-color: var(--navy-blue);
 
-    background-image:
-      linear-gradient(to bottom, rgb(46 47 66 / 70%), rgb(46 47 66 / 70%)),
-      url("../images/people-office.png");
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 
     background-position: center center;
 
